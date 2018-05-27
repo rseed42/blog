@@ -5,23 +5,24 @@ permalink:           pretty
 # relative_permalinks: true
 
 # Setup
-title:               Lanyon
-tagline:             'A Jekyll theme'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:                 http://lanyon.getpoole.com
+title:               Venelin Petkov
+tagline:             'Making things work since 1982'
+description:         'This is my personal blog, so you can expect random bits and pieces about various hobby projects if mine. For cooler stuff visit Engineering Learning Machines.'
+url:                 https://venelinpetkov.com
 baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Venelin Petkov
 
 # Custom vars
 version:             1.0.0
 
-
 # More
 plugins: [jekyll-paginate]
 paginate-path: "page:num"
+
+
+# About
+gravatar_md5: 94aaf9a08201193c5fa5dbb3e09f6cfd

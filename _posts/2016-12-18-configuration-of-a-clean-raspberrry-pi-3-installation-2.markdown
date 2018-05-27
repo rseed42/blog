@@ -2,6 +2,7 @@
 layout: post
 title: Configuration of a Clean Raspberrry Pi 3 Installation
 date: '2016-12-18 16:21:07'
+comments: true
 tags:
 - raspberry
 - arduino

@@ -2,6 +2,7 @@
 layout: post
 title: How to install a Raspberry Camera Node on ROS Kinetic (Raspbian Stretch)
 date: '2017-11-19 13:16:54'
+comments: true
 ---
 
 # Raspicam Installation Tutorial
@@ -42,7 +43,7 @@ wstool update -t src
 ```
 Fetch any additional Raspbian libraries that are needed
 ```
-rosdep install --from-paths src --ignore-src --rosdistro kinetic -y  
+rosdep install --from-paths src --ignore-src --rosdistro kinetic -y
 ```
 Build the packages. Please, note that this takes a very long time, so it might be a good idea to build it overnight in a tmux window.
 ```
@@ -60,7 +61,7 @@ git clone https://github.com/UbiquityRobotics/raspicam_node.git
 ```
 Install other library dependencies automatically:
 ```
-rosdep install --from-paths src --ignore-src --rosdistro kinetic -y  
+rosdep install --from-paths src --ignore-src --rosdistro kinetic -y
 ```
 Finally, build and install `raspicam_node`. It should be possible to do this more specifically with `--pkg raspicam` and save some time, but this hasn't been tried yet. Two compilation processes `-j2` are a safe option here:
 ```

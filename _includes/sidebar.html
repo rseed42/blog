@@ -4,6 +4,11 @@
 
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
+
+  <div class="sidebar-logo" style="align:center">
+    <img src="http://www.gravatar.com/avatar/?s=120" />
+  </div>
+
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
   </div>
@@ -25,8 +30,29 @@
       {% endif %}
     {% endfor %}
 
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>
-    <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+    <a class="sidebar-nav-item" href="https://engineering-learning-machines.com">
+      Engineering Learning Machines
+    </a>
+
+    <a class="sidebar-nav-item" href="https://github.com/rseed42">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-github fa-stack-1x"></i>
+        </span>
+
+      GitHub
+    </a>
+    <a class="sidebar-nav-item" href="https://linkedin.com/in/venelin-petkov-13374372">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square-o fa-stack-2x"></i>
+          <i class="fa fa-linkedin fa-stack-1x"></i>
+        </span>
+        LinkedIn Profile
+    </a>
+
+    </a>
+
+
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
 
