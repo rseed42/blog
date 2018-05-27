@@ -7,7 +7,7 @@ permalink:           pretty
 # Setup
 title:               Venelin Petkov
 tagline:             'Making things work since 1982'
-description:         'This is my personal blog, so you can expect random bits and pieces about various hobby projects if mine. For cooler stuff visit Engineering Learning Machines.'
+description:         'This is my personal blog, so you can expect random bits and pieces about various hobby projects if mine. Also visit Engineering Learning Machines or contact me via LinkedIn.'
 url:                 https://venelinpetkov.com
 baseurl:             ''
 paginate:            5
@@ -22,7 +22,3 @@ version:             1.0.0
 # More
 plugins: [jekyll-paginate]
 paginate-path: "page:num"
-
-
-# About
-gravatar_md5: 94aaf9a08201193c5fa5dbb3e09f6cfd
